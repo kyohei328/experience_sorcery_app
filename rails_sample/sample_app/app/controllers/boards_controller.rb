@@ -25,6 +25,7 @@ class BoardsController < ApplicationController
     end
   end
 
+  
   def update
     @board = Board.find(params[:id])
 
